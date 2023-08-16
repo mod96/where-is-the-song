@@ -1,0 +1,6 @@
+librosa~=0.10.0.post2
+numpy~=1.23.5
+scipy~=1.10.1
+fastdtw~=0.3.4
+PyWavelets~=1.4.1
+matplotlib~=3.7.1

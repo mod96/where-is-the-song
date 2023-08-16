@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  app:
+    build: .
+    volumes:
+      - .:/app
+    command: ["python", "main.py", "-m", "-th", "10", "-sr", "2048", "-mo", "3"]
+    environment:
+      - PYTHONUNBUFFERED=1
